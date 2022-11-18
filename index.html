@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-    <link rel="stylesheet" href="css/style.css">
+
     <script src="https://code.jquery.com/jquery-3.6.1.js"
         integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
 
@@ -20,163 +20,180 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 
+    <!-- Custom css and bootstrap -->
+    <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js"></script>
 
     <title>Document</title>
 </head>
 
 <body>
-    <div class="homepage">
-        <img src="assets/logo/logo.png" alt="logo" id="logo">
-        <h1>WELCOME</h1>
-        <h1>TO DELANI STUDIO</h1>
-        <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
-    </div>
-    <img src="assets/mouse_click.png" alt="mouse_click" id="mouse-click">
-    <div class="container about" id="about-us">
-        <h2 id="about">ABOUT US</h2>
-        <p>
-            When you work with us, you are part of a team of commited collaborators.
-            All aspects of our software development process are intergrated ,
-            interactive and agile.
-        </p>
-        <p>
-            Our approach unifies design, development and product managent to create
-            exceptional products.
-        </p>
-        <p>
-            We start each project by understanding your business goals, the users
-            needs and the product requirements.
-        </p>
-        <p>we help translate them into active and elegant solutions.</p>
-    </div>
-    <div class="services">
-        <h2>SERVICES</h2>
-        <p>
-            Before we sign a contract or write a line of code, our team will spend
-            the neccessary time needed to understand your product vission.
-        </p>
-        <p>
-            The outcome of the scoping session a proposal or high-level statement
-            of work.
-        </p>
-        <p>
-            based on your requirements, we can provide a complete offering or just
-            the piece you need.
-        </p>
-    </div>
-    <div class="container what-we-do">
-        <h2>WHAT WE DO</h2>
-        <div class="row">
-            <div class="col-md-4">
-                <div id="wid">
-                    <h2 class="title">DESIGN</h2>
-                    <p>
-                        Our design practice offers a full range of services including
-                        brand strategy, interaction and visual design and user experience
-                        testing.
-                    </p>
-                    <p>
-                        Throughout your project, our designers create and implement visual
-                        design and workflows, solicit user feedback and work with you to
-                        make sure what gets built is what is needed.
-                    </p>
-                </div>
-                <div id="wid-image">
-                    <img src="assets/services_icons/design_icon.png" alt="Design">
-                    <p>DESIGN</p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div id="wid">
-                    <h2 class="title">DEVELOPMENT</h2>
-                    <p>
-                        All engineers are fluent in the latest enterprise, mobile and web
-                        development technologies.
-                    </p>
-                    <p>
-                        They collaborate with your team to write, and improve code on a
-                        daily basis, using proven practices such as test-driven
-                        development and pair programming.
-                    </p>
-                </div>
-                <div id="wid-image">
-                    <img src="assets/services_icons/dev_icon.png" alt="Development">
-                    <p>DEVELOPMENT</p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div id="wid">
-                    <h2 class="title">PRODUCT MANAGEMENT</h2>
-                    <p>
-                        Planning and development is iterative. Because we are constantly coding and testing,
-                        the products we build are always ready to go live.
-                    </p>
-                    <p>
-                        The iterative process allows for changes as business requirements evolve.
-                    </p>
-                </div>
-                <div id="wid-image">
-                    <img src="assets/services_icons/product_icon.png" alt="Product">
-                    <p>PRODUCT MANAGEMENT</p>
-                </div>
+    <div class="flex-container">
+        <div class="homepage d-flex align-items-center justify-content-center">
+            <div>
+                <img src="assets/logo/logo.png" alt="logo" class="logo">
+                <h1>WELCOME</h1>
+                <h1>TO DELANI STUDIO</h1>
+                <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
+                <a href="#about-us">
+                    <img src="assets/mouse_click.png" alt="mouse_click" class="mouse-click">
+                </a>
             </div>
         </div>
-    </div>
-    </div>
-    <div class="portfolio">
-        <h2>PORTFOLIO</h2>
-        <div class="row" id="portfolio">
-            <div class="col-md-3" id="work">
-                <img src="assets/portfolio/work4.jpg" alt="work1" />
-                <p id="overlay" class="text">Blank Design</p>
-              </div>
-              <div class="col-md-3" id="work">
-                <img src="assets/portfolio/work3.jpg" alt="work1" />
-                <p id="overlay" class="text">Mighty Ontario</p>
-              </div>
-              <div class="col-md-3" id="work">
-                <img src="assets/portfolio/work2.jpg" alt="work1" />
-                <p id="overlay" class="text">Gradient mix</p>
-              </div>
-              <div class="col-md-3" id="work">
-                <img src="assets/portfolio/work1.jpg" alt="work1" />
-                <p id="overlay" class="text">Movie App</p>
-              </div>
+        <div class="container about mb-5" id="about-us">
+            <h2 id="about" class="mt-5 mb-2">ABOUT US</h2>
+            <p>
+                When you work with us, you are part of a team of commited collaborators.
+                All aspects of our software development process are intergrated ,
+                interactive and agile.
+            </p>
+            <p>
+                Our approach unifies design, development and product managent to create
+                exceptional products.
+            </p>
+            <p>
+                We start each project by understanding your business goals, the users
+                needs and the product requirements.
+            </p>
+            <p>we help translate them into active and elegant solutions.</p>
         </div>
-        <div class="row" id="portfolio">
-            <div class="col-md-3" id="work">
-                <img src="assets/portfolio/work5.jpg" alt="work1" />
-                <p id="overlay" class="text">Blog Design</p>
-              </div>
-              <div class="col-md-3" id="work">
-                <img src="assets/portfolio/work6.jpg" alt="work1" />
-                <p id="overlay" class="text">Controller</p>
-              </div>
-              <div class="col-md-3" id="work">
-                <img src="assets/portfolio/work7.jpg" alt="work1" />
-                <p id="overlay" class="text">Burn Logo</p>
-              </div>
-              <div class="col-md-3" id="work">
-                <img src="assets/portfolio/work8.jpg" alt="work1" />
-                <p id="overlay" class="text">Baily Logo</p>
-              </div>
+        <div class="services">
+            <h2>SERVICES</h2>
+            <p>
+                Before we sign a contract or write a line of code, our team will spend
+                the neccessary time needed to understand your product vission.
+            </p>
+            <p>
+                The outcome of the scoping session a proposal or high-level statement
+                of work.
+            </p>
+            <p>
+                based on your requirements, we can provide a complete offering or just
+                the piece you need.
+            </p>
         </div>
-    </div>
-    <div class="container-fluid contact">
-        <h2>CONTACT US</h2>
-        <form id="form-contact" method="POST">
-        <div class="form-group form-inline">
-           
-                <input type="name" class="form-control" id="name" placeholder="Name...">
-                <input type="email" class="form-control" id="email" placeholder="Email...">
-        </div>
-            <div class="form-group">
-                <textarea class="form-control" id="message" placeholder="Your message here..." rows="8"></textarea>
+        <div class="container what-we-do mt-4">
+            <h2>WHAT WE DO</h2>
+            <div class="row mt-3">
+                <div class="col-md-4">
+                    <div id="wid">
+                        <h2 class="title">DESIGN</h2>
+                        <p>
+                            Our design practice offers a full range of services including
+                            brand strategy, interaction and visual design and user experience
+                            testing.
+                        </p>
+                        <p>
+                            Throughout your project, our designers create and implement visual
+                            design and workflows, solicit user feedback and work with you to
+                            make sure what gets built is what is needed.
+                        </p>
+                    </div>
+                    <div id="wid-image">
+                        <img src="assets/services_icons/design_icon.png" alt="Design">
+                        <p>DESIGN</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div id="wid">
+                        <h2 class="title">DEVELOPMENT</h2>
+                        <p>
+                            All engineers are fluent in the latest enterprise, mobile and web
+                            development technologies.
+                        </p>
+                        <p>
+                            They collaborate with your team to write, and improve code on a
+                            daily basis, using proven practices such as test-driven
+                            development and pair programming.
+                        </p>
+                    </div>
+                    <div id="wid-image">
+                        <img src="assets/services_icons/dev_icon.png" alt="Development">
+                        <p>DEVELOPMENT</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div id="wid">
+                        <h2 class="title">PRODUCT MANAGEMENT</h2>
+                        <p>
+                            Planning and development is iterative. Because we are constantly coding and testing,
+                            the products we build are always ready to go live.
+                        </p>
+                        <p>
+                            The iterative process allows for changes as business requirements evolve.
+                        </p>
+                    </div>
+                    <div id="wid-image">
+                        <img src="assets/services_icons/product_icon.png" alt="Product">
+                        <p>PRODUCT MANAGEMENT</p>
+                    </div>
+                </div>
             </div>
-            <button type="submit" class="btn btn-primary col-md-1">Submit</button>
         </div>
-    </form>
+        <div class="portfolio">
+            <h2>PORTFOLIO</h2>
+            <div class="row" id="portfolio">
+                <div class="col-md-3" id="work">
+                    <img src="assets/portfolio/work4.jpg" alt="work1" />
+                    <p id="overlay" class="text">Blank Design</p>
+                </div>
+                <div class="col-md-3" id="work">
+                    <img src="assets/portfolio/work3.jpg" alt="work1" />
+                    <p id="overlay" class="text">Mighty Ontario</p>
+                </div>
+                <div class="col-md-3" id="work">
+                    <img src="assets/portfolio/work2.jpg" alt="work1" />
+                    <p id="overlay" class="text">Gradient mix</p>
+                </div>
+                <div class="col-md-3" id="work">
+                    <img src="assets/portfolio/work1.jpg" alt="work1" />
+                    <p id="overlay" class="text">Movie App</p>
+                </div>
+            </div>
+            <div class="row" id="portfolio">
+                <div class="col-md-3" id="work">
+                    <img src="assets/portfolio/work5.jpg" alt="work1" />
+                    <p id="overlay" class="text">Blog Design</p>
+                </div>
+                <div class="col-md-3" id="work">
+                    <img src="assets/portfolio/work6.jpg" alt="work1" />
+                    <p id="overlay" class="text">Controller</p>
+                </div>
+                <div class="col-md-3" id="work">
+                    <img src="assets/portfolio/work7.jpg" alt="work1" />
+                    <p id="overlay" class="text">Burn Logo</p>
+                </div>
+                <div class="col-md-3" id="work">
+                    <img src="assets/portfolio/work8.jpg" alt="work1" />
+                    <p id="overlay" class="text">Baily Logo</p>
+                </div>
+            </div>
+        </div>
+        <div class="contact">
+            <h2>CONTACT US</h2>
+            <div class="d-flex align-items-center justify-content-center">
+                <form class="form-contact px-5" id="form-contact" method="POST">
+                    <div class="row form-group">
+                        <div class="col">
+                            <input type="text" class="form-control" name="name" id="name" placeholder="Name..."
+                                size="25">
+                        </div>
+                        <div class="col">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Email..."
+                                size="25">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" id="message" placeholder="Your message here..."
+                            rows="8"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary col-md-4">Submit</button>
+                </form>
+            </div>
+        </div>
+
+
+
     </div>
     <footer>
         <img src="assets/social_icons/twitter.png" alt="twitter" />
