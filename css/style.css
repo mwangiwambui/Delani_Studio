@@ -156,7 +156,10 @@ button {
         margin-left: 18%;
         margin-right: 16%;
     }
+}
 
+.hidden-content {
+    display: none;
 }
 
 @media only screen and (max-width: 425px) {
