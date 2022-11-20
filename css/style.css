@@ -1,5 +1,4 @@
 .flex-container {
-    /* display: flex; */
     justify-content: center;
     flex-direction: column;
     align-items: center;
@@ -10,7 +9,6 @@
     color: white;
     text-align: center;
     height: 100vh;
-    /* padding-top: 30%; */
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -21,14 +19,12 @@
 .form-contact{
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     gap: 10px;
     flex-wrap: wrap;
 }
 .mouse-click{
     padding-top: 22px;
     margin-top: 10%;
-    /* padding-bottom: 30px; */
 }
 
 .logo {
@@ -41,7 +37,6 @@
 .services {
     background-image: url('../assets/backgrounds/s_image.jpg');
     color: white;
-    /* height: 700px; */
     display: block;
     padding: 10%;
     background-size: cover;
@@ -58,8 +53,6 @@
 .contact {
     color: white;
     padding-bottom: 5%;
-    /* height: 400px; */
-    /* background-size: cover; */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -109,10 +102,8 @@ input[type=email],
     position: absolute;
     top: 20px;
     left: 35px;
-    /* font-weight: bold; */
     text-align: center;
     font-size: 30px;
-    /* padding-top: 50%; */
 }
 
 @media only screen and (max-width: 755px) {
@@ -123,7 +114,6 @@ input[type=email],
         top: 20px;
         left: 16px;
         padding-top: 20%;
-        /* font-size: 16px; */
     }
 
     .col-md-3 img {
@@ -215,7 +205,6 @@ input[type=email],
 }
 
 .what-we-do{
-    /* margin-bottom: 2%; */
     padding: 2%;
 }
 
