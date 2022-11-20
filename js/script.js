@@ -79,10 +79,10 @@ $(document).ready(function () {
     });
 
     $("form#form-contact").submit(function (event) {
-        // event.preventDefault();
+        event.preventDefault();
         var name = $("input#name").val();
         var email = $("input#email").val();
-        var message = $("textarea#comment").val();
+        var message = $("textarea#message").val();
         if ($("input#name").val() && $("input#email").val()) {
             alert(name + ", we have received your message. Thank you for reaching out to us.");
         }
