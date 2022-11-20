@@ -118,7 +118,11 @@ button {
     font-weight: 600;
 }
 
-#overlay {
+.card{
+    border: 0;
+}
+
+.overlay {
     display: none;
     color: black;
     width: 100%;
@@ -127,15 +131,15 @@ button {
     position: absolute;
     top: 20px;
     left: 35px;
-    font-weight: bold;
+    /* font-weight: bold; */
     text-align: center;
     font-size: 30px;
-    padding-top: 50%;
+    /* padding-top: 50%; */
 }
 
 @media only screen and (max-width: 755px) {
 
-    #overlay{
+    .overlay{
         width: 100%;
         height: 100%;
         top: 20px;
@@ -164,7 +168,7 @@ button {
 
 @media only screen and (max-width: 425px) {
 
-    #overlay{
+    .overlay{
         width: 100%;
         height: 100%;
         top: 20px;
@@ -191,7 +195,7 @@ button {
 
 @media only screen and (min-width: 825px) {
 
-    #overlay {
+    .overlay {
         width: 100%;
         height: 100%;
         top: 20px;
@@ -212,7 +216,7 @@ button {
 
 @media only screen and (min-width: 625px) {
 
-    #overlay{
+    .overlay{
         width: 100%;
         height: 100%;
         top: 20px;
