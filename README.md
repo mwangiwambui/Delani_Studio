@@ -8,6 +8,9 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## Author
 This project has been developed by [Wambui Mwangi](https://github.com/mwangiwambui)
 
+## Link to project
+Find this project [here](https://mwangiwambui.github.io/Delani_Studio/)
+
 ## Technologies used
 
 * [HTML5](https://github.com/topics/html5)
