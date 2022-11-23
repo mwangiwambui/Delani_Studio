@@ -1,4 +1,4 @@
-# Wambui's Portfolio
+# Delani Studio
 
 This is an independent project that involved creating a website about a creative studion called Delani with tools like bootsrap and jquery to make it more responsive.
 
@@ -7,6 +7,9 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## Author
 This project has been developed by [Wambui Mwangi](https://github.com/mwangiwambui)
+
+## Link to project
+Find this project [here](https://mwangiwambui.github.io/Delani_Studio/)
 
 ## Technologies used
 
