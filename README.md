@@ -1,4 +1,4 @@
-# Wambui's Portfolio
+# Delani Studio
 
 This is an independent project that involved creating a website about a creative studion called Delani with tools like bootsrap and jquery to make it more responsive.
 
